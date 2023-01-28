@@ -1,0 +1,37 @@
+footer{
+    margin-top: 50px;
+    background-color: rgb(237, 235, 235);
+    .footer{
+        padding: 80px 0px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Syne', sans-serif;
+                font-weight: 500;
+            }
+        }
+        #subs-title{
+            font-family: 'Syne', sans-serif;
+            font-weight: 600;
+        }
+        #subs_input{
+            background-color: transparent;
+            font-family: 'Syne', sans-serif;
+            outline: none;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px 50px;
+        }
+        #subs_btn{
+            padding: 20px 40px;
+            margin-left: 10px;
+            font-family: 'Syne', sans-serif;
+            font-weight: 600;
+
+        }
+    }
+}

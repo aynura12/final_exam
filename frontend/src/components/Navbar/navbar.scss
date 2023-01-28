@@ -1,0 +1,31 @@
+nav {
+  padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav_icons{
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        #nav_img{
+            height: 50px;
+            width: 50px;
+        }
+        #nav_title{
+            font-family: 'Syne', sans-serif;
+          
+          }
+      }
+    .nav_links{
+        display: flex;
+        gap: 30px;
+        .nav_link{
+            text-decoration: none;
+            font-family: 'Syne', sans-serif;
+            color: black;}
+        .fa-brands{
+            font-size: 25px;
+        }
+        
+    }
+    }

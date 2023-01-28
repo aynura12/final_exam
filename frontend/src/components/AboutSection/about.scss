@@ -1,0 +1,41 @@
+.about{
+    margin-top: 90px;
+    .about_cards{
+        margin-top: 100px;
+        .cards{
+            display: flex;
+            justify-content: space-between;
+        }
+        .first_card{
+            position: relative;
+            background-color: rgb(237, 230, 230);
+            text-align: center;
+            width: 400px;
+        }
+        .second_card{
+            position: relative;
+            background-color: rgb(237, 230, 230);
+            text-align: center;
+            width: 400px;
+        }
+        .third_card{
+            position: relative;
+            background-color: rgb(237, 230, 230);
+            text-align: center;
+            width: 400px;
+        }
+        .fa-regular{
+            color: red;
+            font-size: 60px;
+            margin-top: 45px;
+            margin-bottom: 30px;
+        }
+        #card_title {
+            font-family: 'Syne', sans-serif;
+            margin-bottom: 20px;
+        }
+        #card_content{
+            font-family: 'Syne', sans-serif;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.product-info{
+    margin-top: 200px;
+    #product_title{
+        font-family: 'Syne', sans-serif;
+        text-align: center;
+    }
+    .products{
+        margin-top: 70px;
+        position: relative;
+        height: 400px;
+        width: 400px;
+        margin-right: 40px;
+ 
+        #product_img{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        #product_name{
+            position: absolute;
+         top: 75%;
+         left: 28%;
+         font-family: 'Syne', sans-serif;
+           
+        }
+        #product_price{
+            position: absolute;
+            top: 85%;
+            left: 46%;font-family: 'Syne', sans-serif;
+        
+        }
+        #product_btn{
+            position: absolute;
+            top: 105%;
+            left: 45%;
+        }
+    }
+    #sort_btn{
+        padding: 10px 40px;
+        border: 2px solid red;
+        font-family: 'Syne', sans-serif;
+        background-color: transparent;
+    }
+    #search_input{
+        margin-top: 30px;
+        padding: 10px 20px;
+        border: 2px solid red;
+        outline: none;
+        font-family: 'Syne', sans-serif;
+
+    }
+
+}
