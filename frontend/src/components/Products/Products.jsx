@@ -70,7 +70,7 @@ const Products = () => {
                 id="product_btn"
                 onClick={() => handleDelete(product._id)}
               >
-                delete
+                Delete
               </butoon>
             </div>
           ))}
